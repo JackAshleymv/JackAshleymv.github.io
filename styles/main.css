@@ -25,17 +25,17 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 100px /* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 1000px /* xxxpx (px = pixel is a unit of measure)  */;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color: black;
+    background-color: darkblue;
     color: whitesmoke;
 }
 
 header img {
-    width: 100px;
+    width: 200px;
     height: auto;
     float: right;
 }
