@@ -8,12 +8,12 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: "Arial", sans-serif;
-    color: skyblue;
+    color: darkorange;
 }
 
 h1 {
     font-size: 1.5rem;
-    color: deepskyblue;
+    color: darkorange;
 }
 
 h2 {
@@ -30,7 +30,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: darkblue;
+    background-color: rebeccapurple;
     color: whitesmoke;
 }
 
