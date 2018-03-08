@@ -1,0 +1,124 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav button { display:none; }  /* hamburger button does not need to be shown */
+  
+  section.forecast { display: inline-flex; 
+        flex-wrap: wrap;
+    }  /* show the 10-day forecast with the medium view and up */
+    
+    main figure img { width: 50%;
+        }
+
+  article p.town-article img { width: 62.666%;}  /* responsive images */
+    
+    main section {
+        justify-content: center;
+    }
+    
+    
+    main section img {
+        width: 50%;
+    }
+
+     nav ul {display: flex;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 1rem;
+}
+    
+li a:hover {
+    background-color: aqua;
+    color: white
+}
+    
+    section.forecast {
+    width: 100%;
+}
+    
+    section.forecast h3 {
+        width: 100%;
+        color: black;
+        background-color: gray;
+        text-align: center;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        outline-style: solid;
+        outline-width: thin;
+        outline-color: black;
+
+    }
+    
+    section.forecast table {
+        width: 100%;
+    }
+    
+    section.forecast table thead th {
+        width: 10.2%;
+        text-align: center;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        outline-style: solid;
+        outline-width: thin;
+        outline-color: black;
+        color: black;
+        background-color: lightgray;
+}
+     section.forecast table tbody tr td{
+        width: 10.2%;
+        color: black;
+        background-color: gray;
+        text-align: center;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        outline-style: solid;
+        outline-width: thin;
+        outline-color: black;
+}   
+    
+    main h2 {
+        width: 100%
+    }
+    
+    main figure {
+        width: 48%;
+    }
+    main figure img {
+        width: 100%;
+    }
+    main section {
+        width: 50%
+    }
+    
+
+    main.flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    main article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+}
+
