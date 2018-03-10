@@ -182,7 +182,18 @@ label span {
     padding-bottom: .2em;
 }
 
-
+input.submitBtn {
+    -webkit-appearance: none;
+    color: #fff;
+    border: solid 1px #111;
+    border-radius: 7px;
+    width: 50%;
+    margin: .5em 0;
+    font-size: 1em;
+    padding: .6em;
+    background: #7d2a35;
+    box-shadow: 4px 4px 10px #666;
+}
 
 
 
