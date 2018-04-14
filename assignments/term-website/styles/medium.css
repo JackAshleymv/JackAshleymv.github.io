@@ -1,0 +1,122 @@
+@media only screen and (min-width: 37.5em) {
+    
+ nav button { display:none; } 
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+li {
+    float: left;
+    width: 16.666%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 1rem;
+}
+    
+li a:hover {
+    background-color: red;
+    color: white
+}
+
+
+  #first-row {
+    width: 50%;
+    height: inherit;
+    flex-wrap: nowrap;
+    
+}
+
+
+    
+}
+
+#lastRow{
+    width: 100%;
+    height: auto;
+        
+}
+
+main.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: aqua;
+    justify-content: center;
+
+}
+
+header.flex-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+#adventnow{
+    background-color: bisque;
+    width: 70%;
+    border: 3px
+}
+
+#call-to-action{
+    background-color: bisque;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+div.conDiv{
+    background-color: aqua;
+    width: 100%
+}
+
+body.test{
+    justify-content: center;
+}
+form{
+    width: 60%;
+}
+
+@media only screen and (max-width: 37.5em) {
+.navigation { 
+    list-style: none; 
+    padding-left: 0; 
+}
+.navigation li { display: none; }
+
+    .navigation.responsive { 
+        position: relative;
+}
+    .navigation.responsive li { 
+        background-color: blue;
+        display: block; 
+        width: 100%; 
+        margin: 2px 0; 
+        border: 1px solid black;
+}
+    .navigation.responsive li a {   
+        padding: 1rem; 
+        text-align: center;  
+        display: block; 
+        text-decoration:none; 
+        color: white;
+}
+    .navigation.responsive li a:hover { 
+        background-color: red;
+        color: white;
+}
+    
+    
+}
+
+
+         #accordion-1{font-size: 14px;}

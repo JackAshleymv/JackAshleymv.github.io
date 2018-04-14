@@ -1,0 +1,14 @@
+#accordion-1{
+    width: 80%;
+    background-color: aqua;
+}
+
+.ui-accordion-header{
+    color: green;
+    background-color: azure;
+    border: 1px solid black;
+}
+
+.ui-accordion-content.img{
+    height: 50%;
+}

@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="author" content="Jack Ashley">
+    <meta name="description" content="page description placeholder">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+
+
+</head>
+
+<body id="test">
+    
+  <nav>
+     <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul class="navigation">
+    	<li class="active"><a href="homepage.html">Home Page</a></li>
+    	<li><a href="adventure-tours.html">Adventures</a></li>
+    	<li><a href="event.html">Events</a></li>
+        <li><a href="sales.html">Products</a></li>
+        <li><a href="service.html">Services</a></li>
+    	<li><a href="contact.html">Who we are.</a></li>
+    </ul>		    
+    </nav>
+    
+    
+    <header class="flex-container">
+        
+        
+    <div class="conDiv">
+        <h3>Cycle the Continental Divide  </h3>
+        <p><span class="boldish">Dates:
+            </span> June 5 - 8  </p>
+        <p><span class="boldish">Route:
+            </span> We will be cycling throught the Green trail, from Mt Chisholm to Saddle Peak and then through Sacagawea Peak and a little beyound.   </p>
+        <p><span class="boldish">Cost:
+            </span> $20 a day; $50 for the whole trip </p>
+        <p><span class="boldish">Basic Requirements:
+            </span> This will requre at least  the abaility to cover 20 miles of trail biking a day, and the ability to let loose and have fun! </p>
+        
+        </div>
+        
+        
+    <form>
+        First name:  
+        <input type="Text" id="firstname"><br>
+        Last name:  
+        <input type="Text" id="lastname"><br>
+        E-mail:   
+        <input type="email" id="email"><br>
+        Phone number:
+        <input type="tel" id="phone"><br>
+        Birth Day: 
+        <input type="date" id="bday"><br>
+        State:
+        <input type="text" id="state"><br>
+        Comments:
+        <input type="text" id="comment" size="50"><br>
+        <button onclick="submitData(firstname, lastname, email, phone, bday, state, comment)">Submit</button>
+        
+        </form>
+    
+    
+    </header>
+
+    <script src="scripts/toggleNavMenu.js"></script>
+    <script src="scripts/submitData.js"></script>
+
+</body>
+
+</html> 
